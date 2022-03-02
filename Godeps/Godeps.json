@@ -9,23 +9,23 @@
 	"Deps": [
 		{
 			"ImportPath": "github.com/fiorix/go-smpp/smpp",
-			"Rev": "3f7937eafd71183615a8e7c7af8a76da7bfb91b1"
+			"Rev": "a82a321cf1d80532c7cffeb2ba8cd607da46513e"
 		},
 		{
 			"ImportPath": "github.com/fiorix/go-smpp/smpp/pdu",
-			"Rev": "3f7937eafd71183615a8e7c7af8a76da7bfb91b1"
+			"Rev": "a82a321cf1d80532c7cffeb2ba8cd607da46513e"
 		},
 		{
 			"ImportPath": "github.com/fiorix/go-smpp/smpp/pdu/pdufield",
-			"Rev": "3f7937eafd71183615a8e7c7af8a76da7bfb91b1"
+			"Rev": "a82a321cf1d80532c7cffeb2ba8cd607da46513e"
 		},
 		{
 			"ImportPath": "github.com/fiorix/go-smpp/smpp/pdu/pdutext",
-			"Rev": "3f7937eafd71183615a8e7c7af8a76da7bfb91b1"
+			"Rev": "a82a321cf1d80532c7cffeb2ba8cd607da46513e"
 		},
 		{
 			"ImportPath": "github.com/fiorix/go-smpp/smpp/smpptest",
-			"Rev": "3f7937eafd71183615a8e7c7af8a76da7bfb91b1"
+			"Rev": "a82a321cf1d80532c7cffeb2ba8cd607da46513e"
 		},
 		{
 			"ImportPath": "github.com/go-web/httplog",

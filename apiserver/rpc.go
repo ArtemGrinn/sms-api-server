@@ -69,7 +69,7 @@ func (rpc *SM) submit(req url.Values) (resp *ShortMessageResp, status int, err e
 		{"src", "number of sender", false, nil, &sm.Src},
 		{"dst", "number of recipient", true, nil, &sm.Dst},
 		{"text", "text message", true, nil, &msg},
-		{"enc", "text encoding", false, []string{"latin1", "ucs2"}, &enc},
+		{"enc", "text encoding", false, []string{"latin1", "ucs2", "iso"}, &enc},
 		{"register", "registered delivery", false, []string{"final", "failure"}, &register},
 	}
 	if err := f.Validate(req); err != nil {
