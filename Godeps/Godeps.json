@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/fiorix/sms-api-server",
+	"ImportPath": "github.com/artemgrinn/sms-api-server",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v62",
 	"Packages": [
