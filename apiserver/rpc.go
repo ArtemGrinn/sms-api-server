@@ -82,6 +82,8 @@ func (rpc *SM) submit(req url.Values) (resp *ShortMessageResp, status int, err e
 		sm.Text = pdutext.Latin1(msg)
 	case "ucs2", "ucs-2":
 		sm.Text = pdutext.UCS2(msg)
+	case "iso":
+		sm.Text = pdutext.ISO88595(msg)
 	}
 	switch register {
 	case "final":
