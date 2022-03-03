@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: smsapi
-        image: fiorix/sms-api-server
+        image: artemgrinn/sms-api-server
         ports:
         - containerPort: 8080
         env:
